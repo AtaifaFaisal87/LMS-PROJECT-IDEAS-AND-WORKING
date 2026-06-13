@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterDialog</class>
+ <widget class="QDialog" name="RegisterDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Register User</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lblTitle">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>USER REGISTRATION</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="lblType">
+       <property name="text">
+        <string>User Type:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="cmbType">
+       <item><property name="text"><string>Student</string></property></item>
+       <item><property name="text"><string>Faculty</string></property></item>
+       <item><property name="text"><string>Guest</string></property></item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lblName">
+       <property name="text">
+        <string>Name:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="txtName"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lblCNIC">
+       <property name="text">
+        <string>CNIC:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="txtCNIC"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="lblEmail">
+       <property name="text">
+        <string>Email:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="txtEmail"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="lblPhone">
+       <property name="text">
+        <string>Phone:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="txtPhone"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="lblUsername">
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="txtUsername"/>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="lblPassword">
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="txtPassword">
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="lblBalance">
+       <property name="text">
+        <string>Initial Balance (Rs.):</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QDoubleSpinBox" name="spnBalance">
+       <property name="maximum">
+        <double>999999.99</double>
+       </property>
+       <property name="value">
+        <double>0.00</double>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="lblField1">
+       <property name="text">
+        <string>Seat Number:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="txtField1"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="lblField2">
+       <property name="text">
+        <string>Major:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="txtField2"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btnRegister">
+       <property name="text">
+        <string>Register</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>35</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancel">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>35</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

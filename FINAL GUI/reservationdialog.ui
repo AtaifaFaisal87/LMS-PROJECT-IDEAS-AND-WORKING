@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReservationDialog</class>
+ <widget class="QDialog" name="ReservationDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reservations</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="lblTitle">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>RESERVATIONS</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblDateTime">
+     <property name="text">
+      <string>Date &amp; Time (DD/MM/YYYY and HH:MM):</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="dateLayout">
+     <item>
+      <widget class="QLineEdit" name="txtDate">
+       <property name="placeholderText">
+        <string>DD/MM/YYYY</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="txtStartTime">
+       <property name="placeholderText">
+        <string>Start HH:MM</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="txtEndTime">
+       <property name="placeholderText">
+        <string>End HH:MM</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="btnLayout1">
+     <item>
+      <widget class="QPushButton" name="btnAutoTable">
+       <property name="text">
+        <string>Auto Reserve Table</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnManualTable">
+       <property name="text">
+        <string>Manual Reserve Table</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnReserveBook">
+       <property name="text">
+        <string>Reserve Book</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="lblMyRes">
+     <property name="text">
+      <string>My Reservations:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="lstReservations"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="btnLayout2">
+     <item>
+      <widget class="QPushButton" name="btnViewMyReservations">
+       <property name="text">
+        <string>View My Reservations</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancelReservation">
+       <property name="text">
+        <string>Cancel Reservation</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnClose">
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
