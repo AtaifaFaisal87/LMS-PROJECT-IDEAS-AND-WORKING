@@ -1,0 +1,6 @@
+{
+  "name": "Redora Library System",
+  "description": "An interactive Redora library management system dashboard tracking readers, books, study table reservations, and real-time reading analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
