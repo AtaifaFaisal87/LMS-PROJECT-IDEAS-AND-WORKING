@@ -1,0 +1,11 @@
+debug/main.o
+debug/mainwindow.o
+debug/loginwindow.o
+debug/registerdialog.o
+debug/userdashboard.o
+debug/librariandashboard.o
+debug/bookmanagerdialog.o
+debug/tablemanagerdialog.o
+debug/usermanagerdialog.o
+debug/reservationdialog.o
+debug/library_core.o

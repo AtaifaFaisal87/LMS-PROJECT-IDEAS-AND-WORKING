@@ -1,0 +1,11 @@
+release/main.o
+release/mainwindow.o
+release/loginwindow.o
+release/registerdialog.o
+release/userdashboard.o
+release/librariandashboard.o
+release/bookmanagerdialog.o
+release/tablemanagerdialog.o
+release/usermanagerdialog.o
+release/reservationdialog.o
+release/library_core.o
